@@ -10,7 +10,7 @@ import javax.persistence.*
 class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Int = 0
+    var id: Long = 0
     @Column(nullable = false)
     lateinit var loginName: String
     @Column(nullable = false)
@@ -27,8 +27,4 @@ class User {
     var loginCount: Long = 0
     @Column(nullable = false)
     lateinit var realName: String
-    var sex: Int = 0
-    lateinit var birthday: Date
-    lateinit var address: String
-
 }

@@ -25,7 +25,7 @@ version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 ext {
-    sqlite_jdbc = '3.21.0.1'
+    sqlite_jdbc = '3.23.1'
     commons_lang = '2.6'
     commons_io = '2.4'
 	commons_codec = '1.11'
